@@ -1,6 +1,6 @@
 # Sheets for Android
 
-A small, offline spreadsheet editor for Android 8.0 and newer. The installable APK is [sheets.apk](releases/sheets.apk) (about 2.9 MB). It has no network, account, advertising, or analytics permission.
+A small, offline spreadsheet editor for Android 8.0 and newer. [Download sheets.apk](https://github.com/tanish-gupta11/sheets-android/releases/latest/download/sheets.apk) (about 2.9 MB). It has no network, account, advertising, or analytics permission.
 
 ## What works
 
