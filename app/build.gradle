@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+dependencies {
+    implementation 'org.apache.poi:poi:5.5.1'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+android {
+    namespace 'com.sheetlite'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.sheetlite'
+        minSdk 26
+        targetSdk 35
+        versionCode 2
+        versionName '0.2.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}

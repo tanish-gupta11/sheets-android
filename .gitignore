@@ -1,0 +1,9 @@
+/build/
+/app/build/
+/reference-msi/
+*.idsig
+/signing/
+/.gradle/
+/.idea/
+local.properties
+*.iml
